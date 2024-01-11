@@ -1,30 +1,30 @@
-# FilmCrate - A Movie Review Application
+# MovieCrate - A Movie Review Application
 
 <p align="justify">
-  FilmCrate stands as a comprehensive movie review and recommendation application, meticulously designed to serve as an all-encompassing platform for movie enthusiasts. Its vision is to offer a seamless experience for discovering, reviewing, and recommending films, with a focus on user-friendliness, intuitiveness, and engagement. Developed utilizing the cutting-edge Flutter Framework and supported by MongoDB as its backend database, FilmCrate incorporates NodeJS to facilitate a RESTful API, ensuring smooth communication between the server and client sides.
+  MovieCrate stands as a comprehensive movie review and recommendation application, meticulously designed to serve as an all-encompassing platform for movie enthusiasts. Its vision is to offer a seamless experience for discovering, reviewing, and recommending films, with a focus on user-friendliness, intuitiveness, and engagement. Developed utilizing the cutting-edge Flutter Framework and supported by MongoDB as its backend database, MovieCrate incorporates NodeJS to facilitate a RESTful API, ensuring smooth communication between the server and client sides.
 </p>
 
 <p align="center">
   <a href="https://ibb.co/W5JH9Zw">
-    <img src="https://i.ibb.co/W5JH9Zw/filmcrate.png" alt="filmcrate" border="0">
+    <img src="https://ibb.co/dQnxDn8" alt="MovieCrate" border="0">
   </a>
 </p>
 
 ## Features
 
-The FilmCrate application offers the following functionalities:
+The MovieCrate application offers the following functionalities:
 
 - **User Authentication:** Users can create a profile, log in, and manage their account, including updating their username and password.
 
 - **Movie Search and Browsing:** Users can search for movies by title and browse a collection of movies. They can access detailed movie information, including the synopsis, cast, and crew.
 
-- **Movie Ratings and Reviews:** Users can rate and write reviews for movies they have watched, sharing their opinions and feedback with the FilmCrate community.
+- **Movie Ratings and Reviews:** Users can rate and write reviews for movies they have watched, sharing their opinions and feedback with the MovieCrate community.
 
 - **Review Management:** Users have the option to delete or update their reviews if they need to make changes or corrections.
 
 - **Watchlist Management:** Users can create and manage a watchlist of movies they want to watch, helping them keep track of movies they plan to see.
 
-- **Personalized Recommendations:** FilmCrate provides users with movie recommendations based on their searched or viewed movies, offering personalized suggestions to enhance their movie discovery experience.
+- **Personalized Recommendations:** MovieCrate provides users with movie recommendations based on their searched or viewed movies, offering personalized suggestions to enhance their movie discovery experience.
 
 
 ## Screenshots
@@ -43,7 +43,7 @@ The FilmCrate application offers the following functionalities:
 1. Clone this repository to your local machine using `git clone`.
 
 ```bash
-git clone https://github.com/Shasmit/FilmCrate.git
+git clone https://github.com/Shasmit/MovieCrate.git
 
 ```
 
@@ -52,7 +52,7 @@ git clone https://github.com/Shasmit/FilmCrate.git
 3. Navigate to the project directory.
 
 ```bash
-cd filmCrate
+cd MovieCrate
 ```
 
 4. Install required packages
@@ -63,7 +63,7 @@ flutter pub get
 
 5. Clone the API server from
 ```bash
-git clone https://github.com/Shasmit/FilmCrate-Server.git
+git clone https://github.com/Shasmit/MovieCrate-Server.git
 
 1. Then, install the node_modules using
 npm install
