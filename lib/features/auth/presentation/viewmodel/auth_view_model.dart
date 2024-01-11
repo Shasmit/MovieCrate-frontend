@@ -52,7 +52,7 @@ class AuthViewModel extends StateNotifier<AuthState> {
       (failure) {
         state = state.copyWith(isLoading: false, error: failure.error);
         showSnackBar(
-            message: failure.error, context: context, color: Colors.red);
+            message: 'Login Failed...', context: context, color: Colors.red);
       },
       (success) {
         state = state.copyWith(isLoading: false, error: null);

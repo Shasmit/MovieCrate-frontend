@@ -19,6 +19,7 @@ class AboutMovies extends ConsumerStatefulWidget {
   const AboutMovies({Key? key}) : super(key: key);
 
   @override
+  // ignore: library_private_types_in_public_api
   _AboutMoviesState createState() => _AboutMoviesState();
 }
 
@@ -422,7 +423,7 @@ class _AboutMoviesState extends ConsumerState<AboutMovies> {
                                           ),
                                         ),
                                         content: const Text(
-                                          'FILMCRATE IS SORRY.',
+                                          'MOVIECRATE IS SORRY.',
                                           style: TextStyle(
                                             fontFamily: 'Dongle',
                                             fontSize: 25.0,
@@ -490,7 +491,7 @@ class _AboutMoviesState extends ConsumerState<AboutMovies> {
                                           ),
                                         ),
                                         content: const Text(
-                                          'FILMCRATE IS SORRY.',
+                                          'MOVIECRATE IS SORRY.',
                                           style: TextStyle(
                                             fontFamily: 'Dongle',
                                             fontSize: 25.0,
@@ -558,7 +559,7 @@ class _AboutMoviesState extends ConsumerState<AboutMovies> {
                                           ),
                                         ),
                                         content: const Text(
-                                          'FILMCRATE IS SORRY.',
+                                          'MOVIECRATE IS SORRY.',
                                           style: TextStyle(
                                             fontFamily: 'Dongle',
                                             fontSize: 25.0,
