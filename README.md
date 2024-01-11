@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://ibb.co/W5JH9Zw">
+  <a href="https://ibb.co/dQnxDn8">
     <img src="https://ibb.co/dQnxDn8" alt="MovieCrate" border="0">
   </a>
 </p>
