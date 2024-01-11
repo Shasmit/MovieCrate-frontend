@@ -230,8 +230,12 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                                         Icons.info_outline_rounded,
                                         size: isTablet ? 35 : 25,
                                       ),
-                                      'About Us',
-                                      () {}),
+                                      'About Us', () {
+                                    Navigator.pushNamed(
+                                      context,
+                                      AppRoute.aboutUs,
+                                    );
+                                  }),
                                   SizedBox(
                                     height: isTablet ? 20 : 10,
                                   ),

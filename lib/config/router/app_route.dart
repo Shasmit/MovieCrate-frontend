@@ -3,6 +3,7 @@ import 'package:filmcrate/features/about_movie/presentation/view/all_reviews_vie
 import 'package:filmcrate/features/about_movie/presentation/view/update_review.dart';
 import 'package:filmcrate/features/about_movie/presentation/view/write_review.dart';
 import 'package:filmcrate/features/movies/presentation/view/movie_screen.dart';
+import 'package:filmcrate/features/profile/presentation/view/about_us.dart';
 import 'package:filmcrate/features/profile/presentation/view/edit_profile.dart';
 import 'package:filmcrate/features/profile/presentation/view/profile_view.dart';
 import 'package:filmcrate/features/profile/presentation/view/reset_password.dart';
@@ -31,6 +32,7 @@ class AppRoute {
   static const String movieScreen = '/movieScreen';
   static const String writeReview = '/writeReview';
   static const String updateReview = '/updateReview';
+  static const String aboutUs = '/aboutUs';
 
   static getApplicationRoute() {
     return {
@@ -48,6 +50,7 @@ class AppRoute {
       allReviews: (context) => const AllReviewsView(),
       writeReview: (context) => const WriteReview(),
       updateReview: (context) => const UpdateReview(),
+      aboutUs: (context) => const AboutUsView(),
     };
   }
 }

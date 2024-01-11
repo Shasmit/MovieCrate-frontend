@@ -27,4 +27,3 @@ The MovieCrate application offers the following functionalities:
 - **Personalized Recommendations:** MovieCrate provides users with movie recommendations based on their searched or viewed movies, offering personalized suggestions to enhance their movie discovery experience.
 
 
-
