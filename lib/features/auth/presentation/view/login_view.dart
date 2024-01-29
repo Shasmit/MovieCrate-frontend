@@ -75,11 +75,18 @@ class _LoginViewsState extends ConsumerState<LoginViews> {
                 //     alignment: Alignment.topLeft,
                 //   ),
                 // ),
-                const AspectRatio(
-                  aspectRatio: 12 / 3,
-                  child: Image(
-                    image: AssetImage('images/backgrounds/filmcrate.png'),
-                    fit: BoxFit.cover,
+                Align(
+                  alignment: Alignment.center,
+                  child: Padding(
+                    padding: const EdgeInsets.only(top: 8.0),
+                    child: SizedBox(
+                      height: 110.0,
+                      width: MediaQuery.of(context).size.width * 0.65,
+                      child: const Image(
+                        image: AssetImage('images/backgrounds/filmcrate.png'),
+                        fit: BoxFit.contain,
+                      ),
+                    ),
                   ),
                 ),
                 gap(),

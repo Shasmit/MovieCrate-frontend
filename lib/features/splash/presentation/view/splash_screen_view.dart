@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../../config/constants/app_color_theme.dart';
 import '../viewmodel/splash_viewmodel.dart';
 
 class SplashScreenView extends ConsumerStatefulWidget {
@@ -25,19 +26,27 @@ class _SplashScreenViewState extends ConsumerState<SplashScreenView> {
   @override
   Widget build(BuildContext context) {
     final screenSize = MediaQuery.of(context).size;
-    final isTablet = screenSize.shortestSide >= 600;
-    return SizedBox(
-      height: double.infinity,
-      width: double.infinity,
-      child: isTablet
-          ? const Image(
-              image: AssetImage('images/backgrounds/filmcratesplashtab.png'),
-              fit: BoxFit.cover,
-            )
-          : const Image(
-              image: AssetImage('images/backgrounds/filmcratesplash.png'),
-              fit: BoxFit.cover,
+    return Scaffold(
+      backgroundColor: AppColors.appbarColors,
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.asset(
+              "images/backgrounds/filmcrate.png",
+              width: screenSize.width * 0.8,
+              height: screenSize.height * 0.2,
+              fit: BoxFit.contain,
             ),
+            const SizedBox(
+              height: 30,
+            ),
+            CircularProgressIndicator(
+              color: AppColors.navbarbodyColors,
+            )
+          ],
+        ),
+      ),
     );
   }
 }

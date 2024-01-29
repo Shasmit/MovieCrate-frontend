@@ -85,11 +85,15 @@ class _RegisterViewsState extends ConsumerState<RegisterViews> {
                     alignment: Alignment.topLeft,
                   ),
                 ),
-                const AspectRatio(
-                  aspectRatio: 12 / 2.5,
-                  child: Image(
-                    image: AssetImage('images/backgrounds/filmcrate.png'),
-                    fit: BoxFit.cover,
+                Align(
+                  alignment: Alignment.center,
+                  child: SizedBox(
+                    height: 85.0,
+                    width: MediaQuery.of(context).size.width * 0.65,
+                    child: const Image(
+                      image: AssetImage('images/backgrounds/filmcrate.png'),
+                      fit: BoxFit.contain,
+                    ),
                   ),
                 ),
                 // gap(),
